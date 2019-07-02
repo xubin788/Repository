@@ -19,10 +19,12 @@ public class MyServlet implements Servlet {
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+        int a=0;
+
         res.getWriter().write("hello xubin!");
         System.out.println("123");
         System.out.println("321");
-        // 123  3212212213123321dddd
+        // 123  3212212213123321ddddt
     }
 
     @Override
