@@ -22,7 +22,7 @@ public class MyServlet implements Servlet {
         res.getWriter().write("hello xubin!");
         System.out.println("123");
         System.out.println("321");
-        // 123
+        // 123  321
     }
 
     @Override
