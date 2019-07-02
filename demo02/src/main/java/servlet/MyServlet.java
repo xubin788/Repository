@@ -21,6 +21,7 @@ public class MyServlet implements Servlet {
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
         res.getWriter().write("hello xubin!");
         System.out.println("123");
+        System.out.println("321");
     }
 
     @Override
